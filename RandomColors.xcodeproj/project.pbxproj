@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		B52BE9812C443B8300A705E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BE9802C443B8300A705E5 /* AppDelegate.swift */; };
 		B52BE9832C443B8300A705E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BE9822C443B8300A705E5 /* SceneDelegate.swift */; };
-		B52BE9852C443B8300A705E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BE9842C443B8300A705E5 /* ViewController.swift */; };
 		B52BE9882C443B8300A705E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B52BE9872C443B8300A705E5 /* Base */; };
 		B52BE98A2C443B8400A705E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52BE9892C443B8400A705E5 /* Assets.xcassets */; };
 		B52BE98D2C443B8400A705E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B52BE98C2C443B8400A705E5 /* Base */; };
 		B52BE9982C443B8400A705E5 /* RandomColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BE9972C443B8400A705E5 /* RandomColorsTests.swift */; };
 		B52BE9A22C443B8400A705E5 /* RandomColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BE9A12C443B8400A705E5 /* RandomColorsUITests.swift */; };
 		B52BE9A42C443B8400A705E5 /* RandomColorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52BE9A32C443B8400A705E5 /* RandomColorsUITestsLaunchTests.swift */; };
+		B5712D6E2C46722E00A7A21C /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5712D6D2C46722E00A7A21C /* ColorsTableVC.swift */; };
+		B5712D702C46737000A7A21C /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5712D6F2C46737000A7A21C /* ColorsDetailVC.swift */; };
+		B5712D722C4688E000A7A21C /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5712D712C4688E000A7A21C /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		B52BE97D2C443B8300A705E5 /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52BE9802C443B8300A705E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B52BE9822C443B8300A705E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B52BE9842C443B8300A705E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B52BE9872C443B8300A705E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B52BE9892C443B8400A705E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52BE98C2C443B8400A705E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		B52BE99D2C443B8400A705E5 /* RandomColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52BE9A12C443B8400A705E5 /* RandomColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorsUITests.swift; sourceTree = "<group>"; };
 		B52BE9A32C443B8400A705E5 /* RandomColorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5712D6D2C46722E00A7A21C /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		B5712D6F2C46737000A7A21C /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
+		B5712D712C4688E000A7A21C /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				B52BE9802C443B8300A705E5 /* AppDelegate.swift */,
 				B52BE9822C443B8300A705E5 /* SceneDelegate.swift */,
-				B52BE9842C443B8300A705E5 /* ViewController.swift */,
+				B5712D6D2C46722E00A7A21C /* ColorsTableVC.swift */,
+				B5712D6F2C46737000A7A21C /* ColorsDetailVC.swift */,
+				B5712D712C4688E000A7A21C /* UIColor+Ext.swift */,
 				B52BE9862C443B8300A705E5 /* Main.storyboard */,
 				B52BE9892C443B8400A705E5 /* Assets.xcassets */,
 				B52BE98B2C443B8400A705E5 /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52BE9852C443B8300A705E5 /* ViewController.swift in Sources */,
+				B5712D6E2C46722E00A7A21C /* ColorsTableVC.swift in Sources */,
+				B5712D702C46737000A7A21C /* ColorsDetailVC.swift in Sources */,
+				B5712D722C4688E000A7A21C /* UIColor+Ext.swift in Sources */,
 				B52BE9812C443B8300A705E5 /* AppDelegate.swift in Sources */,
 				B52BE9832C443B8300A705E5 /* SceneDelegate.swift in Sources */,
 			);
@@ -442,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JD8A246YTB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RandomColors/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,6 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JD8A246YTB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RandomColors/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
